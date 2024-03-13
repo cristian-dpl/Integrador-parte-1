@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  background-color: #EAF4F4;
+}
+
+.title {
+  width: 80%;
+  display: flex;
+  justify-content: left;
+}
+.title h2 {
+  font-size: 1.5rem;
+  color: #EAF4F4;
+  border-bottom: 1px solid #EAF4F4;
+}
+
+.content {
+  width: 100%;
+  text-align: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.content h3 {
+  color: #EAF4F4;
+  margin: 10px;
+}
+.content p {
+  line-height: 1.5;
+  color: #A4C3B2;
+}
+.content p:hover {
+  color: #EAF4F4;
+}
+
+.title-container {
+  max-width: 100%;
+  width: 25%;
+  margin: 20px auto;
+}
+.title-container h1 {
+  background-color: #A4C3B2;
+  color: #EAF4F4;
+  border-radius: 100%;
+  border: 2px solid #6B9080;
+  text-align: center;
+  font-size: 3rem;
+  padding: 5px;
+}
+
+header {
+  width: 100%;
+  padding: 0.8rem;
+  background: #6B9080;
+}
+
+footer {
+  width: 100%;
+  padding: 10px;
+  margin-top: 50px;
+  background-color: #A4C3B2;
+  margin-top: auto;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section .card {
+  width: 20%;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 7px;
+  overflow: hidden;
+  padding: 10px;
+  background-color: #6B9080;
+  box-shadow: 0px 1px 10px #A4C3B2;
+  cursor: default;
+  transition: all 400ms ease;
+}
+section .card:hover {
+  box-shadow: 5px 5px 20px #6b9080;
+  transform: translateY(-3%);
+}
+
+@media screen and (max-width: 1100px) {
+  header nav .title h2 {
+    border-bottom: none;
+  }
+  .title-container {
+    width: 38%;
+  }
+  section .card {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 980px) {
+  header nav .search {
+    display: flex;
+    justify-content: center;
+  }
+  header nav .search input {
+    width: 50%;
+    border-radius: 5px;
+  }
+  header nav .search button {
+    display: none;
+  }
+  section .card {
+    width: 30%;
+  }
+  section .card img {
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  header nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav .title {
+    justify-content: center;
+  }
+  header nav .search input {
+    display: none;
+  }
+  .title-container {
+    width: 50%;
+  }
+  .title-container h1 {
+    font-size: 2rem;
+  }
+  section .card {
+    width: 100%;
+  }
+  section .card img {
+    height: 50vh;
+  }
+}
+.btn-search {
+  position: absolute;
+  padding: 7px;
+  border: none;
+  cursor: pointer;
+  background-color: #A4C3B2;
+  color: #EAF4F4;
+}
+
+.btn-buy {
+  width: 100%;
+  margin: 15px auto;
+  padding: 5px;
+  background-color: #A4C3B2;
+  color: #CCE3DE;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.btn-buy:hover {
+  background-color: #EAF4F4;
+  color: #000;
+}
+
+nav {
+  width: 97%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+}
+.search input {
+  padding: 7px;
+  outline: none;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 60%;
+  background-color: #A4C3B2;
+}
+.search input:focus {
+  background-color: #EAF4F4;
+}
+
+.link-nav {
+  padding: 5px;
+  margin: 0 10px;
+  text-align: right;
+  color: #EAF4F4;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+.link-nav:hover {
+  background-color: #A4C3B2;
+  border-radius: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+.footer-container .link-footer {
+  width: 7%;
+  text-align: center;
+  border-radius: 3px;
+  color: #EAF4F4;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 0 20px;
+  padding: 15px 0;
+}
+.footer-container .facebook:hover {
+  background-color: #1877f2;
+}
+.footer-container .twitter:hover {
+  background-color: #14171a;
+}
+.footer-container .youtube:hover {
+  background-color: #ff0000;
+}
+.footer-container .instagram:hover {
+  background-color: #f77737;
+}
+.footer-container .github:hover {
+  background-color: #333;
+}
+
+img {
+  width: 100%;
+  height: 40vh;
+}/*# sourceMappingURL=main.css.map */

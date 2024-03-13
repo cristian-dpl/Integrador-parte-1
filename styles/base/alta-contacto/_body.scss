@@ -1,0 +1,10 @@
+
+// imagen de fondo en la pagina alta y contacto
+body{
+    background-image: url(/img/fondo.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

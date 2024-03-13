@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles/contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="title">
+                <h2>Jugueteria Cosmica</h2>
+            </div>
+            <a href="index.html" class="link-nav">Home</a>
+            <a href="alta.html" class="link-nav">Alta</a>
+            <a href="nosotros.html" class="link-nav">Nosotros</a>
+        </nav>
+    </header>
+
+    <section class="form-section">
+        <div class="title-paragraph">
+            <h2 class="title-form">Datos de contacto</h2>
+        </div>
+
+        <div class="form-div">
+            <form id="uploadForm" onsubmit="onSubmitContact(event)">
+                <div class="form-box">
+                    <div class="form-input">
+                        <input type="text" name="name" class="theinput" id="name" required placeholder="Nombre *">
+                        <p id="nameError" class="input-error"></p>
+                    </div>
+                    <div class="form-input">
+                        <input type="email" name="email" class="theinput" id="email" required placeholder="Correo electronico *" min="0">
+                        <p id="emailError" class="input-error"></p>
+                    </div>
+                    <div class="form-input">
+                        <input type="number" name="phonenumber" class="theinput" required placeholder="Numero de telefono">
+                    </div>
+                    <div class="form-input">
+                        <textarea name="comment" id="comment" class="theinput" cols="25" rows="5" placeholder="Comentarios"></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-form">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <a href="#" class="facebook link-footer"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="twitter link-footer"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="youtube link-footer"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="instagram link-footer"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="github link-footer"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="./js/contacto.js"></script>
+</body>
+</html>

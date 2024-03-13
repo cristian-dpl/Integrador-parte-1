@@ -1,0 +1,16 @@
+// Responsive de la seccion de nosotros
+
+@media screen and (max-width: 650px){
+    .we-section{
+        .title-container{
+            text-align: center;
+            background-color: #eaf4f4;
+            width: 90%;
+            border-radius: 6px;
+
+        }
+        .paragraph-container{
+            width: 90%;
+        }
+    }
+}

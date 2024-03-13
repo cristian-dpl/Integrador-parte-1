@@ -1,0 +1,16 @@
+@import "./utils/variable";
+
+@import "./base/base";
+@import "./base/title-nav";
+@import "./base/nosotros/body";
+
+@import "./layout/footer";
+@import "./layout/header";
+
+@import "./components/links";
+@import "./components/nav";
+@import "./components/alta-contacto/mediaqueries-alta";
+@import "./components/nosotros/mediaqueries-we";
+@import "./components/nosotros/we.section";
+@import "./base/nosotros/title";
+@import "./base/nosotros/paragraph";

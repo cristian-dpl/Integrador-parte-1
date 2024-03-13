@@ -1,0 +1,11 @@
+// Titulo de la barra de navegacion
+.title{
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    h2{
+        font-size: $font-size-lg;
+        color: $fourth-color;
+        border-bottom: 1px solid $fourth-color;
+    }
+}

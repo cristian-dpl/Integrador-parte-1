@@ -1,0 +1,79 @@
+@media screen and (max-width: 1100px) {
+    header{
+        nav{
+            .title{
+                h2{
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+    .title-container{
+            width: 38%;
+    }
+    section{
+        .card{
+            width: 40%;
+        }
+    }
+}
+
+@media screen and (max-width: 980px) {
+    header{
+        nav{
+            .search{
+                display: flex;
+                justify-content: center;
+                input{
+                    width: 50%;
+                    border-radius: 5px;
+                }
+                button{
+                    display: none;
+                }
+            }
+        }
+    }
+    section{
+        .card{
+            width: 30%;
+            img{
+                height: 30vh;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        nav{
+            width: 100%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .title{
+                justify-content: center;
+            }
+            .search{
+                input{
+                   display: none;
+                }
+            }
+        }
+    }
+    .title-container{
+        width: 50%;
+        h1{
+            font-size: 2rem;
+        }
+    }
+    section{
+        .card{
+            width: 100%;
+            img{
+                height: 50vh;
+            }
+        }
+    }
+}

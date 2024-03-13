@@ -1,0 +1,24 @@
+section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .card{
+        width: 20%;
+        margin: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-radius: 7px;
+        overflow: hidden;
+        padding: 10px;
+        background-color: $primary-color;
+        box-shadow: 0px 1px 10px $secundary-color;
+        cursor: default;
+        transition: all 400ms ease;
+        &:hover{
+            box-shadow: 5px 5px 20px lighten($color: $primary-color, $amount: 0);
+            transform: translateY(-3%);
+        } 
+    }
+}

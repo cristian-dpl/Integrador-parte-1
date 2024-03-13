@@ -1,0 +1,17 @@
+
+// Barra de busqueda del header
+.search{
+    width: 100%;
+    position: relative;
+    input{
+        padding: 7px;
+        outline: none;
+        border: none;
+        border-radius: 5px 0 0 5px;
+        width: 60%;
+        background-color: $secundary-color;
+        &:focus{
+            background-color: $fourth-color;
+        }
+    }
+}

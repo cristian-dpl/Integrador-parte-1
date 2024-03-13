@@ -1,0 +1,15 @@
+// Titulo del contenido (juguetes)
+.title-container{
+    max-width: 100%;
+    width: 25%;
+    margin: 20px auto;
+    h1{
+        background-color: $secundary-color;
+        color: $fourth-color;
+        border-radius: 100%;
+        border: 2px solid $primary-color;
+        text-align: center;
+        font-size: $font-size-bg;
+        padding: 5px;
+    }
+}

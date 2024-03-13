@@ -1,0 +1,19 @@
+// Titulo principal y parrafo de la pagina de "alta y contacto"
+.title-paragraph{
+    width: 100%; 
+    margin: 30px;
+    text-align: center;
+    .title-form{
+        width: 30%;
+        margin: auto;
+        padding: 10px;
+        border-radius: 6px;
+        font-size: $font-size-lg;
+        background-color: $secundary-color;
+        color: $fourth-color;
+    }
+    .paragraph-form{
+        margin-top: 30px;
+        color: $fourth-color;
+    }
+}

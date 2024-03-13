@@ -1,0 +1,38 @@
+// Responsive de la pagina "alta y contacto"
+@media screen and (max-width: 650px){
+    header{
+        nav{
+            width: 100%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .title{
+                justify-content: center;
+            }
+        }
+    }
+    .form-section{
+        .title-paragraph{
+            .title-form{
+                width: 75%;
+            }
+        }
+    }
+    .form-box .form-input{
+        width: 100%;
+    }
+    .long-description{
+        height: 100%;
+        
+    }
+    .form-check{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+}
+
+

@@ -1,0 +1,27 @@
+
+// Boton de la barra de busqueda
+.btn-search{
+    position: absolute;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+    background-color: $secundary-color;
+    color: $fourth-color;
+}
+
+
+// Boton comprar de las cards
+.btn-buy{
+    width: 100%;
+    margin: 15px auto;
+    padding: 5px;
+    background-color: $secundary-color;
+    color: $third-color;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        background-color: $fourth-color;
+        color: #000;
+    }
+}

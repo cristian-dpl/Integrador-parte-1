@@ -1,0 +1,18 @@
+// Estilos del boton del formulario de la pagina "alta y contacto"
+.btn-form{
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background-color: $primary-color;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: $font-size-sh;
+    color: $fourth-color;
+    font-weight: 800;
+    letter-spacing: 3px;
+    &:hover{
+        box-shadow: 0 0 10px rgb(164, 195, 178, .2);     
+    }
+}
